@@ -1,5 +1,5 @@
 {
-  "name": "kupatsa",
+  "name": "axon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "parcel /src/index.js",
+    "dev": "parcel public/index.html",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -9,25 +9,11 @@ a {
     text-decoration: none;
 }
 
-.navbar {
-    background-color: #188CE1;
-    width: 100%;
-    padding: 1em;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar ul {
-    display: flex;
-}
-
-.navbar ul > li {
-    list-style: none;
-    margin-right: 2em;
-}
-
 .main-body {
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    align-content: center;
-    justify-content: center;
+    background-image: url("./images/hero-bg.jpg") ;
+    background-repeat: no-repeat;
 }
+

@@ -5,7 +5,7 @@ import './nav.css';
 const Nav = () => {
     return (
         <nav className='navbar'>
-            <h1 className='nav-logo'>Kupatsa</h1>
+            <img src="../../images/axon-lg.png" alt="Axon Logo"/>
             <ul>
                 <li><NavLink  activeStyle={ { color: 'black' } } exact to='/'>Home</NavLink></li>
                 <li><NavLink activeStyle={ { color: 'black' } } exact to='/services'>Services</NavLink></li>
